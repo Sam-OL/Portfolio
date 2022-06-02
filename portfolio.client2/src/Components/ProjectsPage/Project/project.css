@@ -25,15 +25,15 @@
     align-items: center;
     border-radius: 20px;
     font-size: xx-large;
-    background: rgb(214,78,101);
-    background: linear-gradient(90deg, rgba(214,78,101,0.8125) 0%, rgba(240,237,238,1) 21%, rgba(240,237,238,1) 79%, rgba(214,78,101,0.8125) 100%);
-    font-family: 'Secular One', sans-serif;
-    color: #787777;
+    background: rgb(219,48,105);
+    background: linear-gradient(205deg, rgba(219,48,105,1) 12%, rgba(45,114,143,1) 54%);
+    font-family: 'Cairo', sans-serif;
+    color: #db3069;
 }
 
 .project-page__title--content {
     width: 103%;
-    background-color: white;
+    background-color: #131b23;
     margin-bottom: 15px;
     border-radius: .6em;
 }

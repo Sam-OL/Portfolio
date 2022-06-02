@@ -2,26 +2,32 @@
     width: 50vw;
     justify-content: center;
     text-align: center;
-    background: rgb(214,78,101);
-    background: linear-gradient(60deg, rgba(214,78,101,0.8125) 0%, rgba(240,237,238,1) 21%, rgba(255,255,255,1) 79%, rgba(214,78,101,0.8125) 100%);
+    background: rgb(219,48,105);
+    background: radial-gradient(circle, rgba(219,48,105,1) 37%, rgba(19,27,35,1) 88%);
     margin-top: 1rem;
     margin-bottom: 1rem;
     border-radius: 5px;
-    box-shadow: inset -10em 0 0 0px #ffffff;
-    color: black;
+    box-shadow: inset 0em 0 0 0px #131B23;
     border: none;
     border-color: white;
     transition: box-shadow .3s ease-out, color .3s ease-in;
 }
 
     .card-header__container:hover {
-        box-shadow: inset 10em 0px 1px 0px #f0edee;
-        background-color: white !important;
+        box-shadow: inset 0px 0px 3px 3px #131B23;
+        background-color: #DB3069 !important;
+
     }
 
 .navbar__brand-name {
-    color: inherit;
+    color: black !important;
 }
+    .navbar__brand-name:hover {
+        color: white !important;
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+        text-decoration-color: white !important;
+    }
 
 
 .navbar--separator {
@@ -29,5 +35,5 @@
     margin: 20px;
     height: 50px;
     border-radius: 50px;
-    background-color: #D64E6590;
+    background-color: #DB3069;
 }

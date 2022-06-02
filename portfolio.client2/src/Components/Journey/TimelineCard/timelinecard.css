@@ -12,7 +12,7 @@
     justify-content: space-evenly;
 }
 .timeline-card__description {
-    color: #787777;
+    color: white;
     width: 17vw;
     flex-wrap: wrap;
 }

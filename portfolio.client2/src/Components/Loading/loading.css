@@ -5,47 +5,46 @@
     align-items: center;
     justify-content: center;
 }
+
 .loading-icon__container {
     width: 25vh;
     height: 25vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(255,255,255);
-    background: linear-gradient(60deg, rgba(255,255,255,1) 47%, rgba(214,78,101,1) 50%, rgba(255,255,255,1) 53%, rgba(214,78,101,1) 56%, rgba(255,255,255,1) 59%, rgba(214,78,101,1) 62%);
+    text-align: center;
+    background: rgb(19,27,35);
+    background: linear-gradient(60deg, rgba(19,27,35,1) 20%, rgba(219,48,105,1) 35%, rgba(19,27,35,1) 40%, rgba(219,48,105,1) 45%, rgba(19,27,35,1) 50%, rgba(219,48,105,1) 55%, rgba(19,27,35,1) 60%, rgba(219,48,105,1) 65%, rgba(19,27,35,1) 80%);
+    
    
-   /* background: rgb(255,255,255);
-    background: linear-gradient(60deg, rgba(255,255,255,1) 29%, rgba(214,78,101,1) 44%, rgba(255,255,255,1) 47%, rgba(214,78,101,1) 50%, rgba(255,255,255,1) 53%, rgba(214,78,101,1) 56%, rgba(255,255,255,1) 59%, rgba(214,78,101,1) 62%, rgba(255,255,255,1) 77%);
-    */border-radius: 50%;
-    border-width: 15px;
-    animation: loading-container-spin infinite .8s ease-in-out;
+  
+    border-radius: 100px;
+    animation: loading-container-spin infinite .7s ease-in-out;
 }
 
 
 .loading-icon__paragraph {
-    
     display: flex;
     font-size: 25px;
-    width: 98%;
-    height: 98%;
-    border-radius: 50%;
-    background-color: white;
-    text-align: center;
+    width: 100%;
+    height: 100%;
     justify-content: center;
     align-items: center;
-    color: #787777;
+    color: white !important;
     font-family: 'Times New Roman', Times, serif;
-    animation: loading-text-spin infinite .8s ease-in-out;
+    border-radius: 100px;
+    background-color: #131b23;
+    animation: loading-text-spin infinite .7s ease-in-out;
 }
 
 
 @keyframes loading-container-spin {
     from {
-        transform: rotate(360deg)
+        transform: rotate(360deg) translateY(8px);
     }
 
     to {
-        transform: rotate(0)
+        transform: rotate(0) translateY(8px);
     }
 
 }

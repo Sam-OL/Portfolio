@@ -2,10 +2,7 @@
 
 .footer-container {
     padding: 1rem;
-    background: rgb(240,237,238);
-    background: linear-gradient(15deg, rgba(240,237,238,1) 79%, rgba(214,78,101,0.8125) 100%);
+    background-color: #2d728f;
     color: black !important;
-    border-top-right-radius: 30px;
     font-size: medium;
-    box-shadow: 0 5px 5px 2px black;
 }
