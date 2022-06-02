@@ -1,0 +1,18 @@
+.navbar-main {
+    padding: 1rem;
+    background: rgb(240,237,238);
+    background: linear-gradient(205deg, rgba(240,237,238,1) 79%, rgba(214,78,101,0.8125) 100%);
+    color: black !important;
+    border-bottom-left-radius: 30px;
+    font-size: medium;
+    box-shadow: 0 -5px 15px 2px black;
+}
+
+.navbar-brand__name {
+    color: black !important;
+    font-family: 'Secular One', sans-serif !important;
+}
+    .navbar-brand__name:hover {
+        color: #787777 !important;
+    }
+

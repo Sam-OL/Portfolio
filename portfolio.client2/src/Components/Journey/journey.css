@@ -1,0 +1,41 @@
+
+
+
+.timeline-container {
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+    margin: 40px 0;
+
+}
+.timeline-dot {
+    text-align: center;
+    padding: 6px !important;
+    justify-content: center;
+    width: 6rem;
+    height: 2.5rem;
+    color: black !important;
+    background-color: #F0EDEE !important;
+}
+
+.timeline-project__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline-card__container {
+    margin-left: max;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*.timeline-container::after {
+    background-color: #e17b77;
+    content: '';
+    position: absolute;
+    left: calc(50% - 2px);
+    width: 4px;
+    height: 100%;
+}
+*/

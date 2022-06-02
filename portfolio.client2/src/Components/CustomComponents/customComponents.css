@@ -1,0 +1,33 @@
+.card-header__container {
+    width: 50vw;
+    justify-content: center;
+    text-align: center;
+    background: rgb(214,78,101);
+    background: linear-gradient(60deg, rgba(214,78,101,0.8125) 0%, rgba(240,237,238,1) 21%, rgba(255,255,255,1) 79%, rgba(214,78,101,0.8125) 100%);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: inset -10em 0 0 0px #ffffff;
+    color: black;
+    border: none;
+    border-color: white;
+    transition: box-shadow .3s ease-out, color .3s ease-in;
+}
+
+    .card-header__container:hover {
+        box-shadow: inset 10em 0px 1px 0px #f0edee;
+        background-color: white !important;
+    }
+
+.navbar__brand-name {
+    color: inherit;
+}
+
+
+.navbar--separator {
+    width: 2px;
+    margin: 20px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #D64E6590;
+}

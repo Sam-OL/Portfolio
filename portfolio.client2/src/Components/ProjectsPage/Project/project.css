@@ -1,0 +1,43 @@
+.project-page {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.project-page__intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 50%;
+    
+}
+
+.project-page__title--container {
+    margin-top: 1.5em;
+    width: 20%;
+    height: 8%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: xx-large;
+    background: rgb(214,78,101);
+    background: linear-gradient(90deg, rgba(214,78,101,0.8125) 0%, rgba(240,237,238,1) 21%, rgba(240,237,238,1) 79%, rgba(214,78,101,0.8125) 100%);
+    font-family: 'Secular One', sans-serif;
+    color: #787777;
+}
+
+.project-page__title--content {
+    width: 103%;
+    background-color: white;
+    margin-bottom: 15px;
+    border-radius: .6em;
+}
+
+
+  
+
