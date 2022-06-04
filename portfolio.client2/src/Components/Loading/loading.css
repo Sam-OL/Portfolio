@@ -13,11 +13,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: rgb(19,27,35);
+     background: rgb(19,27,35);
     background: linear-gradient(60deg, rgba(19,27,35,1) 20%, rgba(219,48,105,1) 35%, rgba(19,27,35,1) 40%, rgba(219,48,105,1) 45%, rgba(19,27,35,1) 50%, rgba(219,48,105,1) 55%, rgba(19,27,35,1) 60%, rgba(219,48,105,1) 65%, rgba(19,27,35,1) 80%);
     
-   
-  
     border-radius: 100px;
     animation: loading-container-spin infinite .7s ease-in-out;
 }
@@ -30,8 +28,8 @@
     height: 100%;
     justify-content: center;
     align-items: center;
-    color: white !important;
-    font-family: 'Times New Roman', Times, serif;
+    color: #db3069 !important;
+    font-family: 'Cairo', sans-serif;
     border-radius: 100px;
     background-color: #131b23;
     animation: loading-text-spin infinite .7s ease-in-out;

@@ -31,7 +31,9 @@ function AboutMe() {
                     </p>
                 </div>
             </div>  
-                <Journey /> 
+
+            <div className="about-me__tools">
+            </div>
          </div>
     );
 }

@@ -15,7 +15,7 @@ import ProjectsPage from './Components/ProjectsPage/ProjectsPage'
 import Footer from './Components/Footer/Footer';
 import { IProject } from './Interfaces'
 import BorrowMy from './BorrowMy-logo.png';
-
+import Journey from './Components/Journey/Journey';
 
 function App() {
 
@@ -33,7 +33,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/AboutMe" element={<AboutMe />} />
-                <Route path="/Projects" element={ <Loading />} />
+                <Route path="/Projects" element={<Journey />} />
                 <Route path={"/Projects/:name"} element={<ProjectsPage />} />
             </Routes>
             <Footer />

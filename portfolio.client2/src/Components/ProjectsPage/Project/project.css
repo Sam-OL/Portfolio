@@ -29,15 +29,23 @@
     background: linear-gradient(205deg, rgba(219,48,105,1) 12%, rgba(45,114,143,1) 54%);
     font-family: 'Cairo', sans-serif;
     color: #db3069;
+    transform: skewX(40deg);
 }
 
 .project-page__title--content {
-    width: 103%;
+    text-align: end;
+    padding-right: 10px;
+    width: 100%;
     background-color: #131b23;
     margin-bottom: 15px;
     border-radius: .6em;
+    transform: skewX(-40deg) translateX(-20px);
 }
 
+
+.project-page__content--description {
+    color: white;
+}
 
   
 
